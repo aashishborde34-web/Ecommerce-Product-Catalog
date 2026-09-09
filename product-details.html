@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="View product details and add products to your shopping cart."
+    >
+
+    <title>MyShop - Product Details</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="index.html" class="logo">
+                MyShop
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="product.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="cart.html">Cart</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section
+            id="product-details"
+            class="product-detail section"
+            aria-labelledby="detail-name"
+        >
+
+            <img
+                id="detail-image"
+                src="img/headphone.jpg"
+                alt="Product Image"
+                class="detail-image"
+            >
+
+            <div class="product-detail-content">
+
+                <h1 id="detail-name">
+                    Wireless Headphones
+                </h1>
+
+                <p id="detail-price">
+                    Price: $10.00
+                </p>
+
+                <p id="detail-description">
+                    Enjoy clear sound with comfortable wireless headphones.
+                </p>
+
+                <button
+                    type="button"
+                    class="btn"
+                    id="add-to-cart"
+                >
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 MyShop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
